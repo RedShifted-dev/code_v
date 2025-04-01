@@ -13,6 +13,17 @@ body {
 }
 
 .logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-png{
+    position: relative;
+    background-image: url("../Resources/Photos/Logo.png");
+    background-size: contain;
+}
+
+.logo-text{
     color: #388BFF;
     font-size: 16px;
     font-weight: 700;
